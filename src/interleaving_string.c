@@ -46,3 +46,15 @@ bool isInterleave(char *s1, char *s2, char *s3) {
 
 	return matrix[lenS1][lenS2];
 }
+
+static void _run() {
+	if (isInterleave("aabcc", "dbbca", "aadbbcbcac")) {
+		printf("Is Interleaving String\n");
+	} else {
+		printf("Is not Interleaving String\n");
+	}
+}
+
+void interleaving_string() {
+	_run();
+}

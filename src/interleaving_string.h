@@ -12,4 +12,6 @@
 
 bool isInterleave(char *s1, char *s2, char *s3);
 
+void interleaving_string();
+
 #endif /* INTERLEAVING_STRING_H_ */

@@ -8,15 +8,13 @@
  ============================================================================
  */
 
-#include "interleaving_string.h"
+#include "common.h"
+// #include "interleaving_string.h"
+#include "count_of_smaller_numbers_after_self.h"
 
 int main(void) {
-	if (isInterleave("aabcc", "dbbca", "aadbbcbcac")) {
-		printf("Is Interleaving String\n");
-	} else {
-		printf("Is not Interleaving String\n");
-	}
-
+	// interleaving_string();
+	count_of_smaller_numbers_after_self();
 	puts(""); /* prints  */
 
 	return EXIT_SUCCESS;
