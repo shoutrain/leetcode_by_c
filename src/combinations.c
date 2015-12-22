@@ -9,23 +9,18 @@
 
 int _calCombineNum(int n, int r) {
 	int i;
-	int combineN = 1;
+	int combineNNSubR = 1;
 	int combineR = 1;
-	int combineNSubR = 1;
 
-	for (i = n; i > 1; i--) {
-		combineN *= i;
+	for (i = n; i > n - r; i--) {
+		combineNNSubR *= i;
 	}
 
 	for (i = r; i > 1; i--) {
 		combineR *= i;
 	}
 
-	for (i = n - r; i > 1; i--) {
-		combineNSubR *= i;
-	}
-
-	return combineN / (combineR * combineNSubR);
+	return combineNNSubR / combineR;
 }
 
 int _combine(int start, int end, int length, int yOffset, int xOffset,
@@ -63,13 +58,12 @@ int **combine(int n, int k, int **columnSizes, int *returnSize) {
 	int i;
 
 	*returnSize = _calCombineNum(n, k);
-	columnSizes = (int **) malloc(*returnSize * sizeof(int *));
+	*columnSizes = (int *) malloc(*returnSize * sizeof(int));
 
 	int **results = (int **) malloc(*returnSize * sizeof(int *));
 
 	for (i = 0; i < *returnSize; i++) {
-		columnSizes[i] = (int *) malloc(sizeof(int));
-		columnSizes[i][0] = k;
+		columnSizes[0][i] = k;
 		results[i] = (int *) malloc(k * sizeof(int));
 	}
 
@@ -79,15 +73,15 @@ int **combine(int n, int k, int **columnSizes, int *returnSize) {
 	return results;
 }
 
-#define N 5
-#define K 2
+#define N 1
+#define K 1
 
 static void _run() {
 	printf("n = %d, k = %d\n", N, K);
 
-	int **columnSizes = NULL;
+	int *columnSizes = NULL;
 	int returnSize = 0;
-	int **results = combine(N, K, columnSizes, &returnSize);
+	int **results = combine(N, K, &columnSizes, &returnSize);
 	int i, j;
 
 	printf("[\n");
@@ -95,7 +89,7 @@ static void _run() {
 	for (i = 0; i < returnSize; i++) {
 		printf("  [ ");
 
-		for (j = 0; j < K; j++) {
+		for (j = 0; j < columnSizes[i]; j++) {
 			printf("%d ", results[i][j]);
 		}
 
