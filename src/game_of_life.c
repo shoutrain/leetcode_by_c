@@ -97,7 +97,7 @@ void printBoard(int **board, int boardRowSize, int boardColSize) {
 	printf("\n");
 }
 
-void _run() {
+static void _run() {
 	int i[2] = { 1, 1 };
 	int ii[2] = { 1, 0 };
 
