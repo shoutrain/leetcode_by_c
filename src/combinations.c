@@ -7,7 +7,7 @@
 
 #include "combinations.h"
 
-int _calCombineNum(int n, int r) {
+static int _calCombineNum(int n, int r) {
 	int i;
 	int combineNNSubR = 1;
 	int combineR = 1;
@@ -23,7 +23,7 @@ int _calCombineNum(int n, int r) {
 	return combineNNSubR / combineR;
 }
 
-int _combine(int start, int end, int length, int yOffset, int xOffset,
+static int _combine(int start, int end, int length, int yOffset, int xOffset,
 		int **results) {
 	if (1 == length) {
 		int count = 0;

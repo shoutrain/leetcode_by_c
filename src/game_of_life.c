@@ -7,7 +7,7 @@
 
 #include "game_of_life.h"
 
-int _liveSituation(int **board, int boardRowSize, int boardColSize, int row,
+static int _liveSituation(int **board, int boardRowSize, int boardColSize, int row,
 		int col) {
 	int liveNum = 0;
 

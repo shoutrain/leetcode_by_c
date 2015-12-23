@@ -15,7 +15,7 @@ struct Node {
 	struct Node *right;
 };
 
-void insert(struct Node *node, int value, int *count) {
+static void _insert(struct Node *node, int value, int *count) {
 	if (value < node->value) {
 		node->lessCount++;
 
@@ -26,7 +26,7 @@ void insert(struct Node *node, int value, int *count) {
 			newNode->value = value;
 			node->left= newNode;
 		} else {
-			insert(node->left, value, count);
+			_insert(node->left, value, count);
 		}
 	} else if (value > node->value) {
 		*count += node->lessCount + node->equalCount + 1;
@@ -38,7 +38,7 @@ void insert(struct Node *node, int value, int *count) {
 			newNode->value = value;
 			node->right = newNode;
 		} else {
-			insert(node->right, value, count);
+			_insert(node->right, value, count);
 		}
 	} else {
 		*count += node->lessCount;
@@ -58,7 +58,7 @@ int *countSmaller(int *nums, int numsSize, int *returnSize) {
 	for (i = numsSize - 2; i >= 0; i--) {
 		int count = 0;
 
-		insert(node, nums[i], &count);
+		_insert(node, nums[i], &count);
 		counts[i] = count;
 	}
 

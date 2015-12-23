@@ -15,7 +15,8 @@
 // #include "nim_game.h"
 // #include "merge_two_sorted_lists.h"
 // #include "game_of_life.h"
-#include "combinations.h"
+// #include "combinations.h"
+#include "minimum_size_subarray_sum.h"
 
 int main(void) {
 	// interleaving_string();
@@ -24,7 +25,8 @@ int main(void) {
 	// nim_game();
 	// merge_two_sorted_lists();
 	// game_of_life();
-	combinations();
+	// combinations();
+	minimum_size_subarray_sum();
 
 	puts(""); /* prints  */
 
