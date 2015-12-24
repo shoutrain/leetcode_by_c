@@ -11,7 +11,6 @@
 #include "common.h"
 
 int findPeakElement(int* nums, int numsSize);
-
 void find_peak_element();
 
 #endif /* FIND_PEAK_ELEMENT_H_ */

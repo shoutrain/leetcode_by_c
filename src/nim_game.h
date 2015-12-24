@@ -11,7 +11,6 @@
 #include "common.h"
 
 bool canWinNim(int n);
-
 void nim_game();
 
 #endif /* NIM_GAME_H_ */

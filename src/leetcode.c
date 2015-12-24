@@ -16,7 +16,8 @@
 // #include "merge_two_sorted_lists.h"
 // #include "game_of_life.h"
 // #include "combinations.h"
-#include "minimum_size_subarray_sum.h"
+// #include "minimum_size_subarray_sum.h"
+#include "binary_tree_right_side_view.h"
 
 int main(void) {
 	// interleaving_string();
@@ -26,7 +27,8 @@ int main(void) {
 	// merge_two_sorted_lists();
 	// game_of_life();
 	// combinations();
-	minimum_size_subarray_sum();
+	// minimum_size_subarray_sum();
+	binary_tree_right_side_view();
 
 	puts(""); /* prints  */
 
