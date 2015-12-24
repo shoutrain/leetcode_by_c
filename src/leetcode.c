@@ -19,7 +19,8 @@
 // #include "minimum_size_subarray_sum.h"
 // #include "binary_tree_right_side_view.h"
 // #include "sum_root_to_leaf_numbers.h"
-#include "factorial_trailing_zeroes.h"
+// #include "factorial_trailing_zeroes.h"
+#include "permutation_sequence.h"
 
 int main(void) {
 	// interleaving_string();
@@ -32,7 +33,8 @@ int main(void) {
 	// minimum_size_subarray_sum();
 	// binary_tree_right_side_view();
 	// sum_root_to_leaf_numbers();
-	factorial_trailing_zeroes();
+	// factorial_trailing_zeroes();
+	permutation_sequence();
 
 	puts(""); /* prints  */
 
