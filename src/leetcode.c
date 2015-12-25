@@ -20,7 +20,8 @@
 // #include "binary_tree_right_side_view.h"
 // #include "sum_root_to_leaf_numbers.h"
 // #include "factorial_trailing_zeroes.h"
-#include "permutation_sequence.h"
+// #include "permutation_sequence.h"
+#include "has_path_sum.h"
 
 int main(void) {
 	// interleaving_string();
@@ -34,7 +35,8 @@ int main(void) {
 	// binary_tree_right_side_view();
 	// sum_root_to_leaf_numbers();
 	// factorial_trailing_zeroes();
-	permutation_sequence();
+	// permutation_sequence();
+	has_path_sum();
 
 	puts(""); /* prints  */
 
