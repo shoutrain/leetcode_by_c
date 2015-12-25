@@ -29,7 +29,7 @@ static bool _sum(struct TreeNode *node, int sum, int count) {
 	return false;
 }
 
-bool hasPathSum(struct TreeNode* root, int sum) {
+bool hasPathSum(struct TreeNode *root, int sum) {
 	if (NULL == root) {
 		return false;
 	}

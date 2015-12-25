@@ -19,7 +19,7 @@ struct TreeNode {
     struct TreeNode *right;
 };
 
-bool hasPathSum(struct TreeNode* root, int sum);
+bool hasPathSum(struct TreeNode *root, int sum);
 void has_path_sum();
 
 #endif /* HAS_PATH_SUM_H_ */

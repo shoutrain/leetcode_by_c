@@ -21,7 +21,8 @@
 // #include "sum_root_to_leaf_numbers.h"
 // #include "factorial_trailing_zeroes.h"
 // #include "permutation_sequence.h"
-#include "has_path_sum.h"
+// #include "has_path_sum.h"
+#include "is_isomorphic.h"
 
 int main(void) {
 	// interleaving_string();
@@ -36,7 +37,8 @@ int main(void) {
 	// sum_root_to_leaf_numbers();
 	// factorial_trailing_zeroes();
 	// permutation_sequence();
-	has_path_sum();
+	// has_path_sum();
+	is_isomorphic();
 
 	puts(""); /* prints  */
 
