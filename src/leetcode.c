@@ -23,7 +23,8 @@
 // #include "permutation_sequence.h"
 // #include "has_path_sum.h"
 // #include "is_isomorphic.h"
-#include "validate_binary_search_tree.h"
+// #include "validate_binary_search_tree.h"
+#include "symmetric_tree.h"
 
 int main(void) {
 	// interleaving_string();
@@ -40,7 +41,8 @@ int main(void) {
 	// permutation_sequence();
 	// has_path_sum();
 	// is_isomorphic();
-	validate_binary_search_tree();
+	// validate_binary_search_tree();
+	symmetric_tree();
 
 	puts(""); /* prints  */
 
