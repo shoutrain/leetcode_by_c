@@ -22,7 +22,8 @@
 // #include "factorial_trailing_zeroes.h"
 // #include "permutation_sequence.h"
 // #include "has_path_sum.h"
-#include "is_isomorphic.h"
+// #include "is_isomorphic.h"
+#include "validate_binary_search_tree.h"
 
 int main(void) {
 	// interleaving_string();
@@ -38,7 +39,8 @@ int main(void) {
 	// factorial_trailing_zeroes();
 	// permutation_sequence();
 	// has_path_sum();
-	is_isomorphic();
+	// is_isomorphic();
+	validate_binary_search_tree();
 
 	puts(""); /* prints  */
 
