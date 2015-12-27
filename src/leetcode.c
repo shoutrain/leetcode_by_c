@@ -24,7 +24,8 @@
 // #include "has_path_sum.h"
 // #include "is_isomorphic.h"
 // #include "validate_binary_search_tree.h"
-#include "symmetric_tree.h"
+// #include "symmetric_tree.h"
+#include "reverse_words.h"
 
 int main(void) {
 	// interleaving_string();
@@ -42,7 +43,8 @@ int main(void) {
 	// has_path_sum();
 	// is_isomorphic();
 	// validate_binary_search_tree();
-	symmetric_tree();
+	// symmetric_tree();
+	reverse_words();
 
 	puts(""); /* prints  */
 
