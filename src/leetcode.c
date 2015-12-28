@@ -25,7 +25,8 @@
 // #include "is_isomorphic.h"
 // #include "validate_binary_search_tree.h"
 // #include "symmetric_tree.h"
-#include "reverse_words.h"
+//#include "reverse_words.h"
+#include "same_tree.h"
 
 int main(void) {
 	// interleaving_string();
@@ -44,7 +45,8 @@ int main(void) {
 	// is_isomorphic();
 	// validate_binary_search_tree();
 	// symmetric_tree();
-	reverse_words();
+	// reverse_words();
+	same_tree();
 
 	puts(""); /* prints  */
 
