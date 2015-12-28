@@ -29,7 +29,8 @@
 // #include "same_tree.h"
 // TODO #include "burst_balloons.h"
 // #include "climbing_stairs.h"
-#include "house_robber.h"
+// #include "house_robber.h"
+#include "range_sum_query_immutable.h"
 
 int main(void) {
 	// interleaving_string();
@@ -52,7 +53,8 @@ int main(void) {
 	// same_tree();
 	// TODO burst_balloons();
 	// climbing_stairs();
-	house_robber();
+	// house_robber();
+	range_sum_query_immutable();
 
 	puts(""); /* prints  */
 
