@@ -28,7 +28,8 @@
 // #include "reverse_words.h"
 // #include "same_tree.h"
 // TODO #include "burst_balloons.h"
-#include "climbing_stairs.h"
+// #include "climbing_stairs.h"
+#include "house_robber.h"
 
 int main(void) {
 	// interleaving_string();
@@ -50,7 +51,8 @@ int main(void) {
 	// reverse_words();
 	// same_tree();
 	// TODO burst_balloons();
-	climbing_stairs();
+	// climbing_stairs();
+	house_robber();
 
 	puts(""); /* prints  */
 
