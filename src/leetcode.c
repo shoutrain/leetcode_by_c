@@ -30,7 +30,12 @@
 // TODO #include "burst_balloons.h"
 // #include "climbing_stairs.h"
 // #include "house_robber.h"
-#include "range_sum_query_immutable.h"
+// #include "range_sum_query_immutable.h"
+// TODO #include "unique_binary_search_tree.h"
+// #include "remove_duplicates_from_sorted_array.h"
+// #include "valid_anagram.h"
+// #include "reverse_linked_list.h"
+// #include "two_sum.h"
 
 int main(void) {
 	// interleaving_string();
@@ -54,7 +59,12 @@ int main(void) {
 	// TODO burst_balloons();
 	// climbing_stairs();
 	// house_robber();
-	range_sum_query_immutable();
+	// range_sum_query_immutable();
+	// TODO unique_binary_search_tree();
+	// remove_duplicates_from_sorted_array();
+	// valid_anagram();
+	// reverse_linked_list();
+	// two_sum();
 
 	puts(""); /* prints  */
 

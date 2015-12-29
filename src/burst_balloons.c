@@ -8,7 +8,7 @@
 #include "burst_balloons.h"
 
 int maxCoins(int *nums, int numsSize) {
-
+	return 0;
 }
 
 static void _run() {
