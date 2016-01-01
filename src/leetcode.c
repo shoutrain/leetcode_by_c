@@ -27,7 +27,7 @@
 // #include "symmetric_tree.h"
 // #include "reverse_words.h"
 // #include "same_tree.h"
-// TODO #include "burst_balloons.h"
+#include "burst_balloons.h"
 // #include "climbing_stairs.h"
 // #include "house_robber.h"
 // #include "range_sum_query_immutable.h"
@@ -56,7 +56,7 @@ int main(void) {
 	// symmetric_tree();
 	// reverse_words();
 	// same_tree();
-	// TODO burst_balloons();
+	burst_balloons();
 	// climbing_stairs();
 	// house_robber();
 	// range_sum_query_immutable();
