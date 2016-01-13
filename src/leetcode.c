@@ -37,7 +37,8 @@
 // #include "reverse_linked_list.h"
 // #include "two_sum.h"
 // #include "add_digits.h"
-#include "happy_number.h"
+// #include "happy_number.h"
+#include "divide_two_integers.h"
 
 int main(void) {
 	// interleaving_string();
@@ -68,7 +69,8 @@ int main(void) {
 	// reverse_linked_list();
 	// two_sum();
 	// add_digits();
-	happy_number();
+	// happy_number();
+	divide_two_integers();
 
 	puts(""); /* prints  */
 
