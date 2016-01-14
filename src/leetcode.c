@@ -38,7 +38,8 @@
 // #include "two_sum.h"
 // #include "add_digits.h"
 // #include "happy_number.h"
-#include "divide_two_integers.h"
+// #include "divide_two_integers.h"
+#include "clone_graph.h"
 
 int main(void) {
 	// interleaving_string();
@@ -70,7 +71,8 @@ int main(void) {
 	// two_sum();
 	// add_digits();
 	// happy_number();
-	divide_two_integers();
+	// divide_two_integers();
+	clone_graph();
 
 	puts(""); /* prints  */
 
