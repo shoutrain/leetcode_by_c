@@ -40,7 +40,8 @@ h Name        : leetcode.c
 // #include "happy_number.h"
 // #include "divide_two_integers.h"
 // #include "clone_graph.h"
-#include "best_time_to_buy_and_sell_stock.h"
+// #include "best_time_to_buy_and_sell_stock.h"
+#include "best_time_to_buy_and_sell_stock_ii.h"
 
 int main(void) {
 	// interleaving_string();
@@ -74,7 +75,8 @@ int main(void) {
 	// happy_number();
 	// divide_two_integers();
 	// clone_graph();
-	best_time_to_buy_and_sell_stock();
+	// best_time_to_buy_and_sell_stock();
+	best_time_to_buy_and_sell_stock_ii();
 
 	puts(""); /* prints  */
 
