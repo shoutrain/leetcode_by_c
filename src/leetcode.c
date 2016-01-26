@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : leetcode.c
+h Name        : leetcode.c
  Author      : Rafael Gu
  Version     :
  Copyright   : Free
@@ -39,7 +39,8 @@
 // #include "add_digits.h"
 // #include "happy_number.h"
 // #include "divide_two_integers.h"
-#include "clone_graph.h"
+// #include "clone_graph.h"
+#include "best_time_to_buy_and_sell_stock.h"
 
 int main(void) {
 	// interleaving_string();
@@ -72,7 +73,8 @@ int main(void) {
 	// add_digits();
 	// happy_number();
 	// divide_two_integers();
-	clone_graph();
+	// clone_graph();
+	best_time_to_buy_and_sell_stock();
 
 	puts(""); /* prints  */
 
